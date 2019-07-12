@@ -28,6 +28,9 @@ SourceList["RBCA:OB"] = {
 AddSubClass("paladin", "Bahamut", {
 	regExpSearch : /^(?=.*hammer)(((?=.*paladin)|((?=.*(exalted|sacred|holy|divine))(?=.*(knight|fighter|warrior|warlord|trooper))))).*$/i,
 	subname : "Oath of Bahamut",
+	
+*/	<STOPPED Working on it here>
+	
 	source : ["RBCA:OoB", 0],
 	spellcastingExtra : ["bane", "shield of faith", "spiritual weapon", "warding bond", "meld into stone", "protection from energy", "stone shape", "stoneskin", "passwall", "wall of stone"],
 	features : {
